@@ -28,7 +28,5 @@
 void main(void){
     if(cpu_is_master()) {
     }
-    testf_entry();
-
     while(1) wfi();
 }
